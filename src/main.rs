@@ -13,7 +13,7 @@ impl OpenAiClient {
         headers.insert(
             "Authorization",
             header::HeaderValue::from_static(
-                "Bearer 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",
+                "Bearer",
             ),
         );
         headers.insert(
